@@ -1,36 +1,3 @@
-#lib.flexible
-
-移动端自适应方案
-
-## 最新版本
-
-**0.3.2**
-
-## 用Grunt打包
-
-运行 `npm install`，来安装所需的依赖模块。关于NPM的知识，请参见[nodejs](http://nodejs.org/);
-
-运行 `grunt`，来对项目进行打包。关于Grunt的知识，请参见[gruntjs](http://gruntjs.com/);
-
-## 依赖库
-
-无
-
-完整引用举例：
-
-    <script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version}}/??flexible_css.js,flexible.js"></script>
-
-## 使用方法
-
-建议对于js做`内敛处理`，在**所有资源加载之前**执行这个js。
-
-执行这个js后，会在`html`（也就是document.documentElement）上增加一个`data-dpr`属性，以及`font-size`样式。
-
-之后页面中的元素，都可以用rem单位来设置。`html`上的`font-size`就是rem的基准像素。
-
-
-
-
 
 
 
@@ -166,6 +133,3 @@
     </div>
 
 
-### 四类栅格在不同手机上的表现
-
-![栅格](grid.jpg);
